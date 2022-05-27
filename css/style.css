@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.clr{
+
+    clear: both;
+}
+            /* header part design start from heat*/
+
+.heder_part{
+ 
+    padding-bottom: 60px;
+}
+.heder_part .header_part_left{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    
+}
+.heder_part .header_part_left .menu_part{
+    margin: 20px 0px 10px 0px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.heder_part .header_part_left .menu_part ul li{
+
+   float: left;
+   padding: 10px;
+   font-size: 20px;
+   font-weight: 600;
+   
+   font-family: sans-serif;
+ 
+}
+.heder_part .header_part_left .menu_part ul li a{
+
+    color: rgb(231, 107, 49);
+
+}
+.heder_part .header_part_left .menu_part ul li a:hover{
+
+    color: rgb(124, 44, 7);
+    text-decoration: underline;
+
+}
+.heder_part .header_part_right{
+    float: left;
+    width: 50%;
+   
+}
+
+.text_part h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1px;
+}
+.food{
+    color: coral;
+}
+.text_part p{
+    font-size: 22px;
+    margin-top: 10px;
+    padding: 30px 0px 25px 0px;
+    width: 80%;
+    font-family: sans-serif;
+}
+.text_part .btn{
+    padding: 10px 20px;
+    background:coral;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    transition: .3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.text_part .btn:hover{
+    background: transparent;
+    color: tomato;
+    border: 2px solid coral;
+    font-weight: bold;
+}
+.header_part_right .head_img{
+
+    margin-left: 30px;
+}
+                /* about part design start from hear */
+
+#About_part{
+    background: rgb(248, 248, 248);
+}
+.about{
+    padding: 50px 0px;
+}
+.about_left{
+    float: left;
+    width: 50%;
+}
+.about_right{
+    float: left;
+    width: 50%;
+    
+}
+.about_right h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+.about_right hr{
+    width: 20%;
+    margin: auto;
+    border: 2px solid tomato;
+    margin-top: 5px;
+}
+.about_right p{
+
+    padding-top: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    line-height: 25px;
+
+}
+.about_right .about_btn{
+    margin:50px auto ;
+    display: block;
+    width: 25%;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: tomato;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.about_right .about_btn:hover{
+    background: transparent;
+    color: tomato;
+    border: 2px solid tomato;
+   
+}
+
+        /* recipes part design satrat from hear */
+
+#recipes_part{
+    background:floralwhite;
+}
+.recipes{
+    padding: 50px 0px;
+    
+}
+.recipes h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+.recipes hr{
+    width: 12%;
+    margin: auto;
+    border: 2px solid tomato;
+    margin-top: 5px;
+}
+.recipes p{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+.card{
+    width: 26%;
+    margin: 40px 15px 0px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #fff;
+    padding:20px;
+    float: left;
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card .crd_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.card h2{
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.card p{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.card .crd_btn{
+    display: block;
+    width: 25%;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: tomato;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+        /* form design strat from hear */
+
+.training{
+    padding: 50px;
+}
+.training_head{
+
+    margin-bottom: 30px;
+}
+.training_head h1{
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+.training_head hr{
+    width: 25%;
+    margin: 5px auto auto;
+    border: 2px solid tomato;
+}
+.training_form{
+    float: left;
+    width: 50%;
+}
+.training_address{
+    float: left;
+    width: 50%;
+}
+.frm_box{
+    width: 60%;
+    margin-top: 50px;
+    padding: 20px;
+    background: lightblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.frm_box h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 25px 0px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.frm_box input{
+    display:block;
+    margin: auto;
+    width: 85%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.frm_box select{
+    display: block;
+    margin: 10px 0px 15px 18px ;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 88%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.apply_btn{
+    
+    padding: 10px;
+    font-size: 20px;
+    width: 36%;
+    margin: 50px auto 15px auto;
+    display: block;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:lightseagreen;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+.training_address{
+    padding-top: 50px;
+}
+.training_address h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.training_address p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.training_bottom{
+    padding: 100px 50px 0PX 50PX ;
+    
+}
+.training_bottom .youtube{
+    padding: 50px ;
+    float: left;
+    
+}
+.training_bottom .instagram{
+    padding: 50px 100px;
+    float: left;
+}
+.training_bottom .dribble{
+    padding: 50px;
+    float: left;
+}
+.training_bottom .youtube h1{
+    
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.training_bottom .instagram h1{
+    
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.training_bottom .dribble h1{
+    
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* FOOOTER DESIGN START FROM HEAR */
+#footer_part{
+    background: #004;
+}
+.footer_text{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.footer_text h1{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.footer_text p{
+    letter-spacing: 2px;
+    padding: 5px;
+    font-family: sans-serif;
+}
